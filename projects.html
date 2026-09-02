@@ -122,6 +122,21 @@
         white-space: nowrap;
       }
 
+      .nav-links {
+        display: flex;
+        gap: 2rem;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #666;
+        transition: color 0.3s;
+      }
+
+      .nav-links a:hover {
+        color: #2196f3;
+      }
+
       @media (max-width: 768px) {
         .container {
           padding: 1rem;
@@ -141,14 +156,14 @@
   </head>
   <body>
     <div class="container">
-      <h2>Projects</h2>
       <nav>
-        <a href="index.html" class="name-title">Trevor Brown</a>
         <div class="nav-links">
-          <a href="projects.html">Projects</a>
+          <a href="index.html">Home</a>
           <a href="cv.html" target="_blank">CV</a>
         </div>
       </nav>
+      <h2>Projects</h2>
+      
 
 <!-- Covenant Dashboard -->
 <div class="project-card">
