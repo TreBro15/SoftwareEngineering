@@ -19,8 +19,7 @@ The template includes the following structure:
 ---
 
 ## 🚀 Technologies Used
-
-## Git, GitHub, VSCode, and Git terminal
+Git, GitHub, VSCode, and Git terminal
 ```
 
 ---
